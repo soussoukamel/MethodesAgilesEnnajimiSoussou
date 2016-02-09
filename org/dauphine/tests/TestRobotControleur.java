@@ -1,4 +1,4 @@
-
+﻿
 package org.dauphine.tests;
 
 import org.dauphine.robotique.Controleur;
@@ -40,7 +40,7 @@ public class TestRobotControleur
         controle1.deplacerRobot(12.4, 6.3);
         System.out.println("--- AFTER TEST METHOD deplacerRobot ---");
         System.out.println("X: "+ controle1.getRobot().getPositionX());
-        System.out.println("Y: "+ controle1.getRobot().getPositionY());
+        System.out.println("Y: " + controle1.getRobot().getPositionY());
     }
 }
 
